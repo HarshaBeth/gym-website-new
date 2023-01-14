@@ -23,7 +23,7 @@ gsap.from('.animate-hero', {
 });
 
 gsap.from('.animate-services', {
-    ScrollTrigger: '.animate-services',
+    scrollTrigger: '.animate-services',
     duration: 0.5,
     opacity: 1,
     x: -150,
@@ -31,14 +31,14 @@ gsap.from('.animate-services', {
 });
 
 gsap.from('.animate-img', {
-    ScrollTrigger: '.animate-services',
+    scrollTrigger: '.animate-services',
     duration: 1.2,
     opacity: 0,
     x: -200,
 });
 
 gsap.from('.animate-membership', {
-    ScrollTrigger: '.animate-membership',
+    scrollTrigger: '.animate-membership',
     duration: 1,
     opacity: 0,
     y: -150,
@@ -47,7 +47,7 @@ gsap.from('.animate-membership', {
 });
 
 gsap.from('.animate-card', {
-    ScrollTrigger: '.animate-card',
+    scrollTrigger: '.animate-card',
     duration: 1,
     opacity: 0,
     y: -150,
@@ -56,7 +56,7 @@ gsap.from('.animate-card', {
 });
 
 gsap.from('.animate-team', {
-    ScrollTrigger: '.animate-team',
+    scrollTrigger: '.animate-team',
     duration: 1,
     opacity: 0,
     y: -150,
@@ -65,7 +65,7 @@ gsap.from('.animate-team', {
 });
 
 gsap.from('.animate-email', {
-    ScrollTrigger: '.animate-email',
+    scrollTrigger: '.animate-email',
     duration: 0.8,
     opacity: 0,
     y: -150,
